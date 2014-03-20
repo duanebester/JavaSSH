@@ -33,7 +33,7 @@ public class App
             Session session = jsch.getSession("monty", "monty.io", 22);
             
             // Setup password
-            session.setPassword("m0nty");
+            session.setPassword("password");
             
             // Add properties config
             session.setConfig(config);
